@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+  height: 600px;
+  box-shadow: 0 0 4px #999;
+}
+
+.wrap p {
+  user-select: none;
+  text-indent: 2em;
+  line-height: 24px;
+  color: #333;
+}
+
+.wrap .con {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 472px;
+}
+
+.wrap .scroll {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 12px;
+  height: 100%;
+}
+
+.scrollBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  border-radius: 12px;
+  background-color: #999;
+}
